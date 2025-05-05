@@ -1,0 +1,44 @@
+<!-- AR.js by @jerome_etienne - github: https://github.com/jeromeetienne/ar.js - info: https://medium.com/arjs/augmented-reality-in-10-lines-of-html-4e193ea9fdbf -->
+<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
+
+<body style='margin : 0px; overflow: hidden;'>
+
+
+
+
+	<a-scene embedded arjs='sourceType: webcam;'>
+	
+		<!-- define your gltf asset -->
+		<a-assets>
+			<a-asset-item id="tree" src="./things/untitled4flattextmyriadedit1Kompenseret3e.gltf"></a-asset-item>
+		</a-assets>
+	
+	
+	<a-entity gltf-model="#tree" scale="0.3 0.3 0.3" position="0 0.09 0" rotation="0 0 0" 
+		
+	<!-- 	animation="property: rotation; to: 0 300 0; loop: true; duration: 10000;" -->
+		>
+	</a-entity>
+	
+	<!-- animation="property: position; to: 1 8 -10; dur: 2000; easing: linear; loop: true" -->
+		<!-- animation="property: rotation; to: 0 360 0; loop: true; dur: 10000" -->
+	
+	 <!--
+	<a-entity gltf-model="#tree" scale="0.3 0.3 0.3" position="0 0.09 0" rotation="0 0 0" animation__rotation="property: object3D.rotation.y; to: 300; dir: alternate; dur: 120000; loop: true"></a-entity>
+	-->
+	
+	<!--	<a-entity gltf-model="##tree"></a-entity> -->
+	<!--	<a-box position='0 0.99 0' material='opacity: 0.9;'></a-box> -->
+	
+<!--	co2overordnetlogoorange -->
+<!--	pattern-co2overordnetlogoorange -->
+	
+	<!-- Camera section. -->
+		<a-marker-camera preset='kanji'></a-marker-camera>
+	<!-- <a-marker-camera type='pattern' url='./things/pattern-qr-code.patt'></a-marker-camera> -->
+<!--	<a-marker-camera type='pattern' url='./things/pattern-co2overordnetlogoorange.patt'></a-marker-camera>  -->
+	</a-scene>
+	
+</body>
+
