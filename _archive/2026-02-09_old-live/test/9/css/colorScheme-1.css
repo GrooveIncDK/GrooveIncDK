@@ -1,0 +1,80 @@
+/* style.scss
+=========================================================*/
+/*=======================================================*\
+		MAIN STYLES
+\*=======================================================*/
+h1, h2, h3, h4, h5, h6 {
+  color: #2f343b;
+}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+  color: #60ABFB;
+}
+
+.bg-primary {
+  background: #60ABFB;
+}
+.bg-primary .btn {
+  background: #2f343b;
+}
+.bg-primary .btn:active {
+  background: #020202;
+}
+
+.bg-secondary {
+  background: #2f343b;
+}
+
+.primary {
+  color: #60ABFB;
+}
+
+.secondary {
+  color: #2f343b;
+}
+
+.brand a {
+  background-color: #2f343b;
+}
+
+.btn {
+  background: #60ABFB;
+}
+.btn:hover {
+  background: #2f343b;
+}
+.btn:active {
+  background: #020202;
+}
+
+.icon {
+  color: #60ABFB;
+}
+
+.icon-2 {
+  background: #454d57;
+}
+
+a.icon-2:hover {
+  background: #60ABFB;
+}
+
+.small {
+  color: rgba(47, 52, 59, 0.5);
+}
+
+footer {
+  background: #2f343b;
+}
+footer .brand a {
+  background-color: #60ABFB;
+}
+footer .copyright a:hover {
+  color: #2f343b;
+}
+
+.toTop {
+  background: #454d57;
+}
+.toTop:hover {
+  background: #60ABFB;
+}

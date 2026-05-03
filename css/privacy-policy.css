@@ -1,0 +1,19 @@
+.pp-body{
+  background-color: #E9EBEB;
+  height: auto;
+}
+#pp-main{
+  
+  margin-top: 50px;            
+
+}
+
+
+.pp-main-text{
+  color: rgba(128, 125, 3, 0.788);
+  font-weight: bold;
+}
+.pp-sub-text{
+  color: rgb(3, 86, 114);
+}
+

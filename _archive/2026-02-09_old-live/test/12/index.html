@@ -1,0 +1,487 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The best landing page</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--<link rel="stylesheet" href="css/mailform.css"/>
+    <link rel="stylesheet" href="css/mailform-subscribe.css"/>
+    <link rel="stylesheet" href="css/mailform-contacts.css"/>-->
+    <link rel="stylesheet" href="css/jquery.fancybox.css"/>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.js"></script>
+
+    <!--[if lt IE 9]>
+    <html class="lt-ie9">
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+        </a>
+    </div>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <script src='js/device.min.js'></script>
+</head>
+<body>
+<div class="page">
+    <!--========================================================
+                              HEADER
+    =========================================================-->
+    <header>
+        <div class="header_cnt">
+            <div class="container">
+
+                <div class="brand">
+                    <h1 class="brand_name">
+                        <a href="./">Your Logo</a>
+                    </h1>
+                </div>
+
+                <h2>
+                    <span class="text-style_1 clr-secondary">The best landing page</span><br>
+                    <span class="clr-default text-style_2">you are looking for.</span>
+                </h2>
+
+                <div class="mailform-wrap text-center">
+                    <form class='rd-mailform' method="post" action="bat/rd-mailform.php">
+                        <input type="hidden" name="form-type" value="contact"/>
+                        <fieldset>
+                            <label data-add-placeholder data-add-icon>
+                                <input type="text"
+                                       name="name"
+                                       placeholder="Name:"
+                                       data-constraints="@NotEmpty @LettersOnly"/>
+                            </label>
+
+                            <label data-add-placeholder data-add-icon>
+                                <input type="text"
+                                       name="phone"
+                                       placeholder="Phone:"
+                                       data-constraints="@Phone"/>
+                            </label>
+
+                            <label data-add-placeholder data-add-icon>
+                                <input type="text"
+                                       name="email"
+                                       placeholder="E-mail:"
+                                       data-constraints="@NotEmpty @Email"/>
+                            </label>
+
+                            <div class="mfControls btn-group">
+                                <button class="btn " type="submit">Get Started Now!</button>
+                            </div>
+                            <div class="mfInfo"></div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--========================================================
+                              CONTENT
+    =========================================================-->
+    <main>
+        <section class="well">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-3 col-md-3 col-sm-3 sidebar">
+                        <nav class="nav" data-equal-group="1">
+                            <ul class="sf-menu" data-type="navbar">
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#features">Features</a></li>
+                                <li><a href="#service">Our programs</a></li>
+                                <li><a href="#gallery">Gallery</a></li>
+                                <li><a href="#video">Video</a></li>
+                                <li><a href="#prices">Prices</a></li>
+                                <li><a href="#faqs">FAQs</a></li>
+                                <li><a href="#testim">Testimonials</a></li>
+                                <li><a href="#subscribe">Subscribe</a></li>
+                                <li><a href="#contacts">Contacts</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+
+                    <div class="col-lg-8 col-lg-offset-1 col-md-9 col-sm-9" data-equal-group="1">
+
+                        <section class="well-1">
+                            <h3 id="about">About</h3>
+                            <h4>Feature-rich landing page template designed to showcase your product or service</h4>
+
+                            <p>Our Business Company provides partners with the resources they need to be successful in
+                                today’s global economy. The team of qualified staff was especially trained to value the
+                                needs and preferences of each customer. Clients’
+                                satisfaction is of the highest priority. </p>
+                        </section>
+
+                        <section class="well-2">
+                            <h3 id="features">Features</h3>
+                            <h4>Ensuring the highest level of <br>
+                                customer satisfaction.</h4>
+
+                            <p class="offset">Our company is your one stop solution for all needs. There is no doubt
+                                that
+                                we are the leaders and you don’t have to worry about our image because it is perfect. A
+                                great number of different grateful clients are the best prove of the
+                                previous statement. </p>
+
+                            <ul class="row icon-list">
+                                <li class="col-md-6" data-fl-icon="&#xe01b;"><span>Business <br>
+                                    Growth</span></li>
+                                <li class="col-md-6" data-fl-icon="&#xe08a;"><span>Marketing <br>
+                                    Program </span></li>
+                                <li class="col-md-6 col-md-clear" data-fl-icon="&#xe050;"><span>Business <br>
+                                    Innovation</span></li>
+                                <li class="col-md-6" data-fl-icon="&#xe0a1;"><span>Who We <br>
+                                    Serve </span></li>
+                            </ul>
+                        </section>
+
+                        <section class="well-3">
+                            <h3 id="service">Our programs</h3>
+                            <h4>Get to know more about business</h4>
+                            <ul class="marked-list">
+                                <li>
+                                    <h5>Probation Program</h5>
+
+                                    <p>If you want to get a good job, but do not have enough experience - join company
+                                        probation program. Our specialists will help you find and choose a probation in
+                                        big corporations and famous companies, according to your wishes and needs.</p>
+                                </li>
+                                <li>
+                                    <h5>Up-grade Program </h5>
+
+                                    <p>You are dreaming about brilliant career, but it is too hard for you to climb the
+                                        career ladder? So, company up-grade program is for you! With the help of the
+                                        best lecturers and profs you will improve requisite skills.</p>
+                                </li>
+                                <li>
+                                    <h5>Business-creation Program </h5>
+
+                                    <p>Starting own business is not an easy thing, when you are not a participant of
+                                        company business-creation program. Successful businessmen will explain you how
+                                        to develop new business step by step and to create prosperous product.</p>
+                                </li>
+                            </ul>
+                        </section>
+
+                        <section class="well-4">
+                            <h3 id="gallery">Gallery</h3>
+
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <a class="thumb" href="images/page-1_img02_original.jpg">
+                                        <img src="images/page-1_img02.jpg" alt=""/>
+                                        <span class="thumb_overlay"></span>
+                                    </a>
+                                    <h5>Financial Solutions</h5>
+
+                                    <p>We’re committed to delivering world-class financial planning. </p>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <a class="thumb" href="images/page-1_img03_original.jpg">
+                                        <img src="images/page-1_img03.jpg" alt=""/>
+                                        <span class="thumb_overlay"></span>
+                                    </a>
+                                    <h5>Risk Management</h5>
+
+                                    <p>We use a disciplined process to
+                                        customize investment. </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <a class="thumb" href="images/page-1_img04_original.jpg">
+                                        <img src="images/page-1_img04.jpg" alt=""/>
+                                        <span class="thumb_overlay"></span>
+                                    </a>
+                                    <h5>Our Objective</h5>
+
+                                    <p>We manage client portfolios and
+                                        provide financial advice. </p>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <a class="thumb" href="images/page-1_img05_original.jpg">
+                                        <img src="images/page-1_img05.jpg" alt=""/>
+                                        <span class="thumb_overlay"></span>
+                                    </a>
+                                    <h5>Premier Support</h5>
+
+                                    <p>Providing essential support service including 24/7.</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="well-5">
+                            <h3 id="video">Video</h3>
+
+                            <h4>Description with video</h4>
+                            <video class="video" width="770" height="463" controls>
+                                <source src="video/Mock-up.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <p>We aim to grow and enhance our services via the cooperation with you as our loyal
+                                customer. The satisfaction of each new client is our precious gift that we will keep for
+                                years. </p>
+                        </section>
+
+                        <section class="well-6">
+                            <h3 id="prices">Prices</h3>
+
+                            <div class="row row__offs1">
+                                <div class="col-md-6 col-sm-6 col-xs-6 text-center__xs">
+                                    <div class="pricing-table">
+                                        <div class="pricing-table_header">
+                                            <span class="currency">$</span>
+                                            <span class="price">258</span>
+                                            <span class="time">/month</span>
+                                        </div>
+                                        <div class="pricing-table_cnt">
+                                            <h4>Standard</h4>
+                                            <ul>
+                                                <li><span class="primary">10GB</span> Space amount</li>
+                                                <li><span class="primary">Unlimited users</span></li>
+                                                <li><span class="primary">30GB</span> Bandwidth</li>
+                                                <li>Enhanced Security</li>
+                                                <li><span class="primary">20</span> MySQL Databases</li>
+                                            </ul>
+                                            <a href="#" class="btn btn__mod1"><span>Buy now!</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6 text-center__xs">
+                                    <div class="pricing-table">
+                                        <div class="pricing-table_header">
+                                            <span class="currency">$</span>
+                                            <span class="price">758</span>
+                                            <span class="time">/month</span>
+                                        </div>
+                                        <div class="pricing-table_cnt">
+                                            <h4>Business</h4>
+                                            <ul>
+                                                <li><span class="primary">10GB</span> Space amount</li>
+                                                <li><span class="primary">Unlimited users</span></li>
+                                                <li><span class="primary">30GB</span> Bandwidth</li>
+                                                <li>Enhanced Security</li>
+                                                <li><span class="primary">20</span> MySQL Databases</li>
+                                            </ul>
+                                            <a href="#" class="btn btn__mod1"><span>Buy now!</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="well-7">
+                            <h3 id="faqs">Faqs</h3>
+
+                            <div class="accordion">
+                                <h5 class="accordion_header">
+                                    Balancing Risk and Opportunity
+                                </h5>
+
+                                <div class="accordion_cnt">
+                                    The stock market has historically returned 10% on average, but most investors have
+                                    seen only a fraction of those returns. Why? Because of emotionally based investment
+                                    decisions and attempts to time the market.
+                                </div>
+
+                                <h5 class="accordion_header">
+                                    Only Award Winning, Best-in-class Support
+                                </h5>
+
+                                <div class="accordion_cnt">
+                                    We offer customers a truly unique set of services for large businesses. Because
+                                    these services differ from our standard lineup of great products, they require a
+                                    specialized customer support structure that blends local and national support for
+                                    maximum efficiency and the best results. Our highly talented team’s advanced levels
+                                    of training enable us to meet the demands of our customers 24/7.
+                                </div>
+
+                                <h5 class="accordion_header">
+                                    Developing Your Opportunities Within Your Business Sector
+                                </h5>
+
+                                <div class="accordion_cnt">
+                                    Thank you for visiting our site! You are at the right place! We are focused on
+                                    providing integrated solutions and services to customers around the world. Putting
+                                    our clients’ interests first, we work hard to exceed your expectations.
+                                </div>
+
+                                <h5 class="accordion_header">
+                                    Delivering Solutions that Drive Business Results
+                                </h5>
+
+                                <div class="accordion_cnt">
+                                    It is rather content-rich and provides you with tons of information on various
+                                    aspects of our business. Our team of professionals will happily help you to deal
+                                    with any issue. Client is our first priority and a great amount of positive
+                                    testimonials can prove this
+                                </div>
+                            </div>
+
+                        </section>
+                        <section class="well-7">
+                            <h3 id="testim">testimonials</h3>
+                            <blockquote class="box">
+                                <div class="box_aside">
+                                    <img src="images/page-1_img07.jpg" alt=""/>
+                                </div>
+                                <div class="box_cnt__no-flow">
+                                    <q>
+                                        <span>
+                                            <span class="before">“</span>
+                                        </span>
+                                        “ The guys at your company are amazing! Your service has added a great value to
+                                        my life. I love that I can jump to your site any time and have access to support
+                                        24/7”.
+                                    </q>
+                                    <cite>Adam</cite>
+                                </div>
+                            </blockquote>
+
+                            <blockquote class="box">
+                                <div class="box_aside">
+                                    <span class="fl-bigmug-line-user144"></span>
+                                </div>
+                                <div class="box_cnt__no-flow">
+                                    <q>
+                                        <span>
+                                            <span class="before">“</span>
+                                        </span>
+                                        “ Everything has just been fantastic! Now I have increased revenue, exposure and
+                                        success. I would recommend this
+                                        company to anyone.”
+                                    </q>
+                                    <cite>Tom</cite>
+                                </div>
+                            </blockquote>
+                        </section>
+
+                        <section class="well-8">
+                            <h3 id="subscribe">Subscribe</h3>
+
+                            <p>Subscribe to our newsletter to receive news, updates, and another
+                                stuff by email. </p>
+
+                            <div class="mailform-subscribe">
+                                <form class='rd-mailform' method="post" action="bat/rd-mailform.php">
+                                    <input type="hidden" name="form-type" value="subscribe"/>
+                                    <fieldset>
+
+                                        <label data-add-placeholder>
+                                            <input type="text"
+                                                   name="email"
+                                                   placeholder="E-mail:"
+                                                   data-constraints="@NotEmpty @Email"/>
+                                        </label>
+
+                                        <div class="mfControls btn-group">
+                                            <button class="btn btn__mod2" type="submit">Subscribe</button>
+                                        </div>
+                                        <div class="mfInfo"></div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </section>
+
+                        <section class="well-9">
+                            <h3 id="contacts">Contacts</h3>
+
+                            <div class="mailform-contacts">
+                                <div class="row">
+                                    <form class='rd-mailform' method="post" action="bat/rd-mailform.php">
+                                        <input type="hidden" name="form-type" value="contact"/>
+                                        <fieldset>
+                                            <div class="col-md-6">
+                                                <label data-add-placeholder>
+                                                    <input type="text"
+                                                           name="name"
+                                                           placeholder="Name:"
+                                                           data-constraints="@NotEmpty @LettersOnly"/>
+                                                </label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label data-add-placeholder>
+                                                    <input type="text"
+                                                           name="email"
+                                                           placeholder="E-mail:"
+                                                           data-constraints="@NotEmpty @Email"/>
+                                                </label>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <label data-add-placeholder>
+                                        <textarea name="message" placeholder="Message"
+                                                  data-constraints="@NotEmpty"></textarea>
+                                                </label>
+                                            </div>
+
+                                            <div class="col-md-12">
+                                                <div class="mfControls btn-group">
+                                                    <button class="btn btn__mod2" type="submit">Submit</button>
+                                                </div>
+                                                <div class="mfInfo"></div>
+                                            </div>
+                                        </fieldset>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="row contact-info">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <dl class="address">
+                                        <dt><span class="fl-bigmug-line-big104"></span> Address:</dt>
+                                        <dd>
+                                            <address> 4578 Marmora Road, Glasgow <br>
+                                                D04 89GR
+                                            </address>
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <dl class="phone">
+                                        <dt><span class="fl-bigmug-line-phone351"></span>Phones:</dt>
+                                        <dd><a href="callto:#">800-2345-6789</a>;</dd>
+                                        <dd><a href="callto:#">800-2345-6790</a>;</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <ul class="inline-list">
+                                <li><a href="#" class="fa fa-facebook"></a></li>
+                                <li><a href="#" class="fa fa-twitter"></a></li>
+                                <li><a href="#" class="fa fa-google-plus"></a></li>
+                            </ul>
+                        </section>
+
+                        <section>
+                            <div class="copyright">
+                                Your Logo © <span id="copyright-year"></span>. All rights reserved
+                                <!-- {%FOOTER_LINK} -->
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!--========================================================
+                              FOOTER
+    =========================================================-->
+    <footer>
+
+    </footer>
+</div>
+
+<script src="js/script.js"></script>
+<!--coded by photon-->
+</body>
+</html>

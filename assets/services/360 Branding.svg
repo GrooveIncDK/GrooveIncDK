@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="460" height="260" viewBox="0 0 460 260">
+  <defs>
+    <filter id="S1" x="0" y="0" width="460" height="260" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_76" data-name="Rectangle 76" width="420" height="220" transform="translate(525 1281)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="_360_Branding" data-name="360 Branding" transform="translate(15 20)">
+    <g transform="matrix(1, 0, 0, 1, -15, -20)" filter="url(#S1)">
+      <rect id="S1-2" data-name="S1" width="400" height="200" transform="translate(25 20)" fill="#fff"/>
+    </g>
+    <g id="Mask_Group_28" data-name="Mask Group 28" transform="translate(-525 -1281)" clip-path="url(#clip-path)">
+      <text id="_360_Branding-2" data-name="360 Branding" transform="translate(635 1318)" fill="#114d59" font-size="25" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-79.187" y="0">360 Branding</tspan></text>
+      <line id="Line_2" data-name="Line 2" x2="80" transform="translate(556.5 1338.5)" fill="none" stroke="#114d59" stroke-width="1"/>
+      <text id="What_is_your_level_of_ambition_Are_you_constantly_seeking_improvement_or_are_you_content_with_your_current_market_position_" data-name="What is your level of ambition? Are you constantly seeking improvement, or are you content with your current market position?" transform="translate(557 1376)" fill="#114d59" font-size="14" font-family="ArialMT, Arial"><tspan x="0" y="13">What is your level of ambition? Are you </tspan><tspan x="0" y="33">constantly seeking improvement, or are you </tspan><tspan x="0" y="53">content with your current market position?</tspan></text>
+      <g id="Arrow" transform="translate(0 -27)">
+        <line id="Line_9" data-name="Line 9" x2="39.12" transform="translate(557 1483.5)" fill="none" stroke="#114d59" stroke-width="1"/>
+        <path id="Polygon_1" data-name="Polygon 1" d="M5.5,0,11,14H0Z" transform="translate(609 1478) rotate(90)" fill="#114d59"/>
+      </g>
+    </g>
+  </g>
+</svg>

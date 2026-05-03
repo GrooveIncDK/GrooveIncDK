@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="520" height="430" viewBox="0 0 520 430">
+  <defs>
+    <filter id="Rectangle_79" x="0" y="0" width="520" height="430" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_10" data-name="Group 10" transform="translate(-440 -2801)">
+    <g transform="matrix(1, 0, 0, 1, 440, 2801)" filter="url(#Rectangle_79)">
+      <rect id="Rectangle_79-2" data-name="Rectangle 79" width="460" height="370" transform="translate(30 27)" fill="#fff"/>
+    </g>
+    <text id="Corporative_Identity" data-name="Corporative Identity" transform="translate(628 2908)" fill="#114d59" font-size="25" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-118.073" y="0">Corporative Identity</tspan></text>
+    <path id="Path_1" data-name="Path 1" d="M0,0H80" transform="translate(512 2928)" fill="none" stroke="#1a535f" stroke-width="2"/>
+    <text id="We_listen_to_and_tailor_your_core_values_to_align_with_your_identity._Your_business_should_be_perceived_consistently_today_as_it_was_a_decade_ago_even_as_it_evolves._We_will_ensure_your_business_remains_relevant_amidst_shifting_market_conditions_and_consu" data-name="We listen to and tailor your core values to align with your identity. Your business should be perceived consistently today as it was a decade ago, even as it evolves. We will ensure your business remains relevant amidst shifting market conditions and consu" transform="translate(512 2967)" fill="#114d59" font-size="14" font-family="ArialMT, Arial"><tspan x="0" y="13">We listen to and tailor your core values to align </tspan><tspan x="0" y="33">with your identity. Your business should be </tspan><tspan x="0" y="53">perceived consistently today as it was a decade </tspan><tspan x="0" y="73">ago, even as it evolves. We will ensure your </tspan><tspan x="0" y="93">business remains relevant amidst shifting </tspan><tspan x="0" y="113">market conditions and consumer trends.</tspan><tspan x="0" y="133">Your Brand is our passion</tspan><tspan fill="#83743b" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="153"></tspan><tspan x="0" y="173">- Different goals, Different solutions.</tspan></tspan></text>
+  </g>
+</svg>

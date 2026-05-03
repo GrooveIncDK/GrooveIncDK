@@ -1,0 +1,327 @@
+/**
+ * Title: Clear icons Flaticon Pack
+ * Author: Appzgear
+ * Source: http://www.flaticon.com/packs/clear-icons
+ * License:  CC BY 3.0 (http://creativecommons.org/licenses/by/3.0/)
+ */
+
+@font-face {
+	font-family: "fl-clear-icons";
+	src: url("../fonts/fl-clear-icons.eot");
+	src: url("../fonts/fl-clear-icons.eot#iefix") format("embedded-opentype"),
+	url("../fonts/fl-clear-icons.woff") format("woff"),
+	url("../fonts/fl-clear-icons.ttf") format("truetype"),
+	url("../fonts/fl-clear-icons.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.fl-clear-icons-ico,
+[class^="fl-clear-icons-"]:before, [class*=" fl-clear-icons-"]:before,
+[class^="fl-clear-icons-"]:after, [class*=" fl-clear-icons-"]:after {   
+	font-family: 'fl-clear-icons';
+    font-size: inherit;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.fl-clear-icons-21:before {
+	content: "\e000";
+}
+.fl-clear-icons-31:before {
+	content: "\e001";
+}
+.fl-clear-icons-32:before {
+	content: "\e002";
+}
+.fl-clear-icons-3:before {
+	content: "\e003";
+}
+.fl-clear-icons-a4:before {
+	content: "\e004";
+}
+.fl-clear-icons-add68:before {
+	content: "\e005";
+}
+.fl-clear-icons-add69:before {
+	content: "\e006";
+}
+.fl-clear-icons-arrow468:before {
+	content: "\e007";
+}
+.fl-clear-icons-arrow469:before {
+	content: "\e008";
+}
+.fl-clear-icons-back12:before {
+	content: "\e009";
+}
+.fl-clear-icons-cabinet4:before {
+	content: "\e00a";
+}
+.fl-clear-icons-calculator30:before {
+	content: "\e00b";
+}
+.fl-clear-icons-calendar53:before {
+	content: "\e00c";
+}
+.fl-clear-icons-caret7:before {
+	content: "\e00d";
+}
+.fl-clear-icons-cellphone4:before {
+	content: "\e00e";
+}
+.fl-clear-icons-cellphone5:before {
+	content: "\e00f";
+}
+.fl-clear-icons-cellphone6:before {
+	content: "\e010";
+}
+.fl-clear-icons-cloth:before {
+	content: "\e011";
+}
+.fl-clear-icons-day7:before {
+	content: "\e012";
+}
+.fl-clear-icons-dialogue1:before {
+	content: "\e013";
+}
+.fl-clear-icons-dialogue:before {
+	content: "\e014";
+}
+.fl-clear-icons-down13:before {
+	content: "\e015";
+}
+.fl-clear-icons-down14:before {
+	content: "\e016";
+}
+.fl-clear-icons-down15:before {
+	content: "\e017";
+}
+.fl-clear-icons-empty21:before {
+	content: "\e018";
+}
+.fl-clear-icons-family3:before {
+	content: "\e019";
+}
+.fl-clear-icons-four30:before {
+	content: "\e01a";
+}
+.fl-clear-icons-halffilled:before {
+	content: "\e01b";
+}
+.fl-clear-icons-help11:before {
+	content: "\e01c";
+}
+.fl-clear-icons-help12:before {
+	content: "\e01d";
+}
+.fl-clear-icons-intersecting4:before {
+	content: "\e01e";
+}
+.fl-clear-icons-intertwined1:before {
+	content: "\e01f";
+}
+.fl-clear-icons-key31:before {
+	content: "\e020";
+}
+.fl-clear-icons-left33:before {
+	content: "\e021";
+}
+.fl-clear-icons-left34:before {
+	content: "\e022";
+}
+.fl-clear-icons-left35:before {
+	content: "\e023";
+}
+.fl-clear-icons-left36:before {
+	content: "\e024";
+}
+.fl-clear-icons-left37:before {
+	content: "\e025";
+}
+.fl-clear-icons-left38:before {
+	content: "\e026";
+}
+.fl-clear-icons-line16:before {
+	content: "\e027";
+}
+.fl-clear-icons-line17:before {
+	content: "\e028";
+}
+.fl-clear-icons-line18:before {
+	content: "\e029";
+}
+.fl-clear-icons-list31:before {
+	content: "\e02a";
+}
+.fl-clear-icons-lock25:before {
+	content: "\e02b";
+}
+.fl-clear-icons-lock26:before {
+	content: "\e02c";
+}
+.fl-clear-icons-looping1:before {
+	content: "\e02d";
+}
+.fl-clear-icons-man140:before {
+	content: "\e02e";
+}
+.fl-clear-icons-microphone29:before {
+	content: "\e02f";
+}
+.fl-clear-icons-microphone30:before {
+	content: "\e030";
+}
+.fl-clear-icons-next10:before {
+	content: "\e031";
+}
+.fl-clear-icons-open98:before {
+	content: "\e032";
+}
+.fl-clear-icons-open99:before {
+	content: "\e033";
+}
+.fl-clear-icons-organizational:before {
+	content: "\e034";
+}
+.fl-clear-icons-pause15:before {
+	content: "\e035";
+}
+.fl-clear-icons-pie19:before {
+	content: "\e036";
+}
+.fl-clear-icons-pie20:before {
+	content: "\e037";
+}
+.fl-clear-icons-pie21:before {
+	content: "\e038";
+}
+.fl-clear-icons-play43:before {
+	content: "\e039";
+}
+.fl-clear-icons-play44:before {
+	content: "\e03a";
+}
+.fl-clear-icons-play45:before {
+	content: "\e03b";
+}
+.fl-clear-icons-rectangular25:before {
+	content: "\e03c";
+}
+.fl-clear-icons-remote5:before {
+	content: "\e03d";
+}
+.fl-clear-icons-right31:before {
+	content: "\e03e";
+}
+.fl-clear-icons-right32:before {
+	content: "\e03f";
+}
+.fl-clear-icons-right33:before {
+	content: "\e040";
+}
+.fl-clear-icons-right34:before {
+	content: "\e041";
+}
+.fl-clear-icons-round40:before {
+	content: "\e042";
+}
+.fl-clear-icons-round41:before {
+	content: "\e043";
+}
+.fl-clear-icons-round42:before {
+	content: "\e044";
+}
+.fl-clear-icons-round43:before {
+	content: "\e045";
+}
+.fl-clear-icons-scissor2:before {
+	content: "\e046";
+}
+.fl-clear-icons-scissor3:before {
+	content: "\e047";
+}
+.fl-clear-icons-screen13:before {
+	content: "\e048";
+}
+.fl-clear-icons-screen14:before {
+	content: "\e049";
+}
+.fl-clear-icons-screen15:before {
+	content: "\e04a";
+}
+.fl-clear-icons-simcard1:before {
+	content: "\e04b";
+}
+.fl-clear-icons-single15:before {
+	content: "\e04c";
+}
+.fl-clear-icons-small145:before {
+	content: "\e04d";
+}
+.fl-clear-icons-song:before {
+	content: "\e04e";
+}
+.fl-clear-icons-speaker35:before {
+	content: "\e04f";
+}
+.fl-clear-icons-speaker36:before {
+	content: "\e050";
+}
+.fl-clear-icons-speed4:before {
+	content: "\e051";
+}
+.fl-clear-icons-square64:before {
+	content: "\e052";
+}
+.fl-clear-icons-subtract2:before {
+	content: "\e053";
+}
+.fl-clear-icons-telephone67:before {
+	content: "\e054";
+}
+.fl-clear-icons-telephone68:before {
+	content: "\e055";
+}
+.fl-clear-icons-television9:before {
+	content: "\e056";
+}
+.fl-clear-icons-three60:before {
+	content: "\e057";
+}
+.fl-clear-icons-threefourth:before {
+	content: "\e058";
+}
+.fl-clear-icons-trash30:before {
+	content: "\e059";
+}
+.fl-clear-icons-two122:before {
+	content: "\e05a";
+}
+.fl-clear-icons-two123:before {
+	content: "\e05b";
+}
+.fl-clear-icons-two124:before {
+	content: "\e05c";
+}
+.fl-clear-icons-two125:before {
+	content: "\e05d";
+}
+.fl-clear-icons-unlock4:before {
+	content: "\e05e";
+}
+.fl-clear-icons-up21:before {
+	content: "\e05f";
+}
+.fl-clear-icons-up22:before {
+	content: "\e060";
+}
+.fl-clear-icons-volume30:before {
+	content: "\e061";
+}
+.fl-clear-icons-volume31:before {
+	content: "\e062";
+}
+.fl-clear-icons-volume32:before {
+	content: "\e063";
+}
