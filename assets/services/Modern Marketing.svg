@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="460" height="260" viewBox="0 0 460 260">
+  <defs>
+    <filter id="S2" x="0" y="0" width="460" height="260" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_77" data-name="Rectangle 77" width="400" height="200" transform="translate(992 1781)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Modern_Marketing" data-name="Modern Marketing" transform="translate(25 20)">
+    <g transform="matrix(1, 0, 0, 1, -25, -20)" filter="url(#S2)">
+      <rect id="S2-2" data-name="S2" width="400" height="200" transform="translate(25 20)" fill="#fff"/>
+    </g>
+    <g id="Mask_Group_29" data-name="Mask Group 29" transform="translate(-992 -1781)" clip-path="url(#clip-path)">
+      <text id="Modern_Marketing-2" data-name="Modern Marketing" transform="translate(1119 1819)" fill="#114d59" font-size="25" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-107.648" y="0">Modern Marketing</tspan></text>
+      <line id="Line_3" data-name="Line 3" x2="80" transform="translate(1014 1839.5)" fill="none" stroke="#114d59" stroke-width="2"/>
+      <text id="The_most_effective_solutions_arise_from_thoughtful_contemplation_of_a_problem." data-name="The most effective solutions arise from thoughtful contemplation of a problem." transform="translate(1014 1878)" fill="#114d59" font-size="14" font-family="ArialMT, Arial"><tspan x="0" y="13">The most effective solutions arise from </tspan><tspan x="0" y="33">thoughtful contemplation of a problem.</tspan></text>
+      <g id="Group_6" data-name="Group 6" transform="translate(0 -24)">
+        <line id="Line_9" data-name="Line 9" x2="39.12" transform="translate(1014 1983.5)" fill="none" stroke="#114d59" stroke-width="1"/>
+        <path id="Polygon_1" data-name="Polygon 1" d="M5.5,0,11,14H0Z" transform="translate(1056 1978) rotate(90)" fill="#114d59"/>
+      </g>
+    </g>
+  </g>
+</svg>

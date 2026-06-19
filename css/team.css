@@ -1,0 +1,103 @@
+#team-page{
+  background:#fff;
+  padding:0;
+  margin-top:0;
+  --team-title-offset:32px;
+}
+
+#team-page .team-title{
+  margin:0;
+  color:#114D59;
+  font-family:Helvetica, Arial, sans-serif;
+  font-weight:700;
+  font-size:clamp(28px,4vw,50px);
+  line-height:1.1;
+  text-align:center;
+  position:relative;
+  transform:translateY(var(--team-title-offset));
+}
+
+#team-page .team-canvas{
+  position:relative;
+  width:100%;
+  aspect-ratio:1920/670;  
+  margin-top:var(--team-title-offset);
+}
+
+#team-page .tm{
+  position:absolute;
+  display:block;
+  height:auto;
+  object-fit:contain;
+  image-rendering:-webkit-optimize-contrast;
+}
+
+#team-page .tm.left{
+  left:5.104167%;
+  top:12.8%;
+  width:20.833333%;
+  aspect-ratio:1/1;
+  z-index:1;        /* behind Ben.svg */
+}
+
+#team-page .tm.right{
+  left:74.84375%;
+  top:12.8%;
+  width:20.833333%;
+  aspect-ratio:1/1;
+  z-index:1;         /* behind Irem */
+}
+
+#team-page .tm.ben{
+  left:22.5%;
+  top:8.73%;
+  width:23.4375%;
+  aspect-ratio:450/350;
+  z-index:2;
+}
+
+#team-page .tm.irem{
+  left:54.0625%;
+  top:8.73%;
+  width:23.4375%;
+  aspect-ratio:450/350;
+  z-index:2;
+}
+
+/* ---------- Responsive improvements ---------- */
+
+@media (max-width: 991.98px){
+  #team-page{ --team-title-offset:24px; }
+  #team-page .team-canvas{ aspect-ratio: 16 / 9; }
+}
+
+@media (max-width: 575.98px){
+  #team-page{ --team-title-offset:16px; }
+  #team-page .team-canvas{ aspect-ratio: 9 / 16; min-height: 520px; }
+
+  #team-page .tm.left{
+    left:6%;
+    top:12%;
+    width:42%;
+    z-index:1;
+  }
+  #team-page .tm.ben{
+    left:27%;
+    top:8%;
+    width:54%;
+    z-index:2;
+  }
+
+  #team-page .tm.right{
+    left:52%;
+    top:56%;
+    width:42%;
+    z-index:1;
+  }
+  #team-page .tm.irem{
+    left:24%;
+    top:50%;
+    width:54%;
+    z-index:2;
+  }
+}
