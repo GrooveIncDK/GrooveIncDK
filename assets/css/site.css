@@ -91,6 +91,11 @@ em{font-style:italic}
   .menu-toggle{display:inline-flex;background:none;border:1px solid var(--line);padding:8px 12px;font-size:.85rem;cursor:pointer;border-radius:6px}
   .mobile-drawer{display:flex}
   .mobile-drawer.open{transform:translateX(0)}
+  .header-row{padding:12px 20px;gap:10px}
+  .brand-mark-img{height:38px}
+  .nav{gap:10px}
+  .nav > .lang-switch{display:none}
+  .nav-cta{padding:8px 14px;font-size:.82rem;white-space:nowrap}
 }
 
 /* ------------------------------ Hero (home) ------------------------------ */
